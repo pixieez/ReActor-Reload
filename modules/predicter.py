@@ -3,7 +3,7 @@ from PIL import Image
 
 from modules.typing import Frame
 
-USE_OPENNSFW2 = False  # เปลี่ยนเป็น True เมื่อคุณต้องการใช้ opennsfw2
+USE_OPENNSFW2 = False
 MAX_PROBABILITY = 0.85
 
 def predict_frame(target_frame: Frame) -> bool:
